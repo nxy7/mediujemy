@@ -23,13 +23,22 @@
                 </div>
 
             </div>
-            <div class="flex flex-col items-center">
-                <img src="/agnieszka1.jpg" class="rounded-lg h-150" />
+            <div class="flex flex-col items-center space-y-2">
+                <img src="/agnieszka1.jpg" class="relative -top-8 rounded-lg w-120 shadow-md" />
                 <div class="bg-slate-200 shadow-md rounded-md p-4">
-                    Agnieszka Danieluk- pomysłodawczyni i założycielka MediujeMy Centrum Mediacji, Komunikacji i
-                    Szkoleń. 
-                    ‘’Wierzę w ludzi,  i uważam, że sami najlepiej wiedzą czego potrzebują. Jako mediator towarzyszę im
-                    w drodze do budowania porozumienia poprzez słuchanie i wspieranie w tej drodze’’.</div>
+                    <div class="mb-6">
+
+                        Agnieszka Danieluk- pomysłodawczyni i założycielka MediujeMy 
+
+                    </div>
+                    <div>
+
+                        ‘’Wierzę w ludzi,  i uważam, że sami najlepiej wiedzą czego potrzebują. Jako mediator towarzyszę
+                        im
+                        w drodze do budowania porozumienia poprzez słuchanie i wspieranie w tej drodze’’.
+
+                    </div>
+                </div>
             </div>
         </div>
         <div class="text-red-500 text-3xl">
@@ -38,11 +47,15 @@
             uczestniczyć w mediacji
         </div>
 
-        <div class="flex justify-center space-x-6">
-            <div>opinia</div>
-            <div>opinia</div>
-            <div>opinia</div>
-            <div>opinia</div>
+        <div class="flex justify-center space-x-10 items-center py-8">
+
+            <div>{{ "←" }}</div>
+            <ReviewCard></ReviewCard>
+            <ReviewCard></ReviewCard>
+            <ReviewCard></ReviewCard>
+            <ReviewCard></ReviewCard>
+            <ReviewCard></ReviewCard>
+            <div>{{ "→" }}</div>
         </div>
 
 
