@@ -1,5 +1,5 @@
 # Simple workflow for deploying static content to GitHub Pages
-currently it's commented because nextjs doesn't support 'next export' yet
+# currently it's commented because nextjs doesn't support 'next export' yet
 name: Deploy static content to Pages
 
 on:
