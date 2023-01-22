@@ -34,11 +34,11 @@ jobs:
         with:
           version: 7
 
-      - uses: actions/setup-node@v2
-        with:
-          # update the Node version to meet your needs
-          node-version: 17
-          cache: npm
+      # - uses: actions/setup-node@v2
+      #   with:
+      #     # update the Node version to meet your needs
+      #     node-version: 17
+      #     cache: npm
 
 
       - name: Build
