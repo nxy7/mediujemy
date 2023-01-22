@@ -44,7 +44,7 @@ jobs:
       - name: Build
         run: |
           pnpm i
-          NUXT_APP_BASE_URL=/mediujemy pnpm generate
+          NUXT_APP_BASE_URL=nxy7.github.io/mediujemy pnpm generate
           # configure the build here
 
       - name: Deploy
