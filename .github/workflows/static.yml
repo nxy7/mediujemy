@@ -1,53 +1,55 @@
-# # Simple workflow for deploying static content to GitHub Pages
-# currently it's commented because nextjs doesn't support 'next export' yet
-# name: Deploy static content to Pages
+# Simple workflow for deploying static content to GitHub Pages
+currently it's commented because nextjs doesn't support 'next export' yet
+name: Deploy static content to Pages
 
-# on:
-#   # Runs on pushes targeting the default branch
-#   push:
-#     branches: ["main"]
+on:
+  # Runs on pushes targeting the default branch
+  push:
+    branches: ["main"]
 
-#   # Allows you to run this workflow manually from the Actions tab
-#   workflow_dispatch:
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
 
-# # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
-# permissions:
-#   contents: write
-#   pages: write
-#   id-token: write
+# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
+permissions:
+  contents: write
+  pages: write
+  id-token: write
 
-# # Allow one concurrent deployment
-# concurrency:
-#   group: "pages"
-#   cancel-in-progress: true
+# Allow one concurrent deployment
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
 
-# jobs:
-#   # Single deploy job since we're just deploying
-#   deploy:
-#     environment:
-#       name: github-pages
-#       url: ${{ steps.deployment.outputs.page_url }}
-#     runs-on: ubuntu-latest
-#     steps:
-#       - uses: actions/checkout@v3
+jobs:
+  # Single deploy job since we're just deploying
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: pnpm/action-setup@v2
+        with:
+          version: 7
 
-#       - uses: actions/setup-node@v2
-#         with:
-#           # update the Node version to meet your needs
-#           node-version: 16
-#           cache: npm
+      - uses: actions/setup-node@v2
+        with:
+          # update the Node version to meet your needs
+          node-version: 17
+          cache: npm
 
-#       - name: Build
-#         run: |
-#           npm ci
-#           npm run build
-#           npm run export
-#           touch out/.nojekyll
-#           # configure the build here
 
-#       - name: Deploy
-#         uses: JamesIves/github-pages-deploy-action@v4 
-#         with:
-#           branch: gh-pages
-#           folder: out
-#         # configure an external GitHub Pages deploy workflow here
+      - name: Build
+        run: |
+          pnpm i
+          pnpm generate
+          # configure the build here
+
+      - name: Deploy
+        uses: JamesIves/github-pages-deploy-action@v4 
+        with:
+          branch: gh-pages
+          folder: .output/public
+        # configure an external GitHub Pages deploy workflow here
