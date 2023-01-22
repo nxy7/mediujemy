@@ -1,10 +1,12 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@iconify-json/mdi': ^1.1.44
   '@nuxt/types': ^2.15.8
   '@nuxt/typescript-build': ^2.1.0
   '@types/node': ^18.11.18
   '@unocss/nuxt': ^0.48.4
+  '@unocss/preset-icons': ^0.48.4
   '@unocss/transformer-variant-group': ^0.48.4
   normalize.css: link:@unocss/reset/normalize.css
   nuxt: ^3.0.0
@@ -13,10 +15,12 @@ dependencies:
   normalize.css: link:@unocss/reset/normalize.css
 
 devDependencies:
+  '@iconify-json/mdi': 1.1.44
   '@nuxt/types': 2.15.8
   '@nuxt/typescript-build': 2.1.0_@nuxt+types@2.15.8
   '@types/node': 18.11.18
   '@unocss/nuxt': 0.48.4
+  '@unocss/preset-icons': 0.48.4
   '@unocss/transformer-variant-group': 0.48.4
   nuxt: 3.0.0_@types+node@18.11.18
 
@@ -367,6 +371,12 @@ packages:
     requiresBuild: true
     dev: true
     optional: true
+
+  /@iconify-json/mdi/1.1.44:
+    resolution: {integrity: sha512-Apg9JY3jzWUTNiDWVBo7pD0WUAxdgoDhqr+X5TF1X6kVmM6U4Uo+Fo9dFaf4Qfwfsbt23zp2BHiaV1h1Hqm31g==}
+    dependencies:
+      '@iconify/types': 2.0.0
+    dev: true
 
   /@iconify/types/2.0.0:
     resolution: {integrity: sha512-+wluvCrRhXrhyOmRDJ3q8mux9JkKy5SJ/v8ol2tu4FVjyYvtEzkc/3pK15ET6RKg4b4w4BmTk1+gsCUhf21Ykg==}

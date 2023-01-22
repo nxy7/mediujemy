@@ -89,6 +89,16 @@
                 Nasi mediatorzy pracują na terenie województwa lubelskiego, podsiadamy oddziały
                 w Lublinie, Nałęczowie oraz Białej Podlaskiej.
             </div>
+            <div>
+                Zalety mediacji?
+            </div>
+            <div class="py-10 w-1/2 m-auto grid grid-cols-2 gap-4 place-items-center justify-center">
+                <MediationTypeIcon icon="i-mdi-home-account" subtitle="Mediacje Rodzinne"></MediationTypeIcon>
+                <MediationTypeIcon icon="i-mdi-fencing" subtitle="Rozwiązywanie Konfliktów"></MediationTypeIcon>
+                <MediationTypeIcon icon="i-mdi-account-voice" subtitle="Poprawa Komunikacji"></MediationTypeIcon>
+                <MediationTypeIcon icon="i-mdi-gavel" subtitle="Uregulowanie Kwestii Prawnych">
+                </MediationTypeIcon>
+            </div>
             <div class="grid grid-cols-2 mt-10">
                 <MediationCard moreInfoHref="mediacjesadowe">
                     <template v-slot:title>Mediacje sądowe</template>

@@ -12,7 +12,9 @@ export default defineNuxtConfig({
   ],
   unocss: {
     uno: true, // enabled `@unocss/preset-uno`
-    icons: true, // enabled `@unocss/preset-icons`
+    icons: {
+      scale: 3
+    }, // enabled `@unocss/preset-icons`
     attributify: true, // enabled `@unocss/preset-attributify`,
     // presets: [],
     transformers: [
