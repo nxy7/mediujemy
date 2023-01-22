@@ -45,6 +45,7 @@ jobs:
         run: |
           pnpm i
           NUXT_APP_BASE_URL=/mediujemy pnpm generate
+          touch .output/public/.nojekyll
           # configure the build here
 
       - name: Deploy
