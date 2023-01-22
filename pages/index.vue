@@ -3,7 +3,7 @@
 
         <div class="grid grid-cols-2 place-items-center">
             <div>
-                <div class="text-8xl font-semibold mb-14">Nasza misja i wartości</div>
+                <div class="text-8xl mb-14 text-darker">Nasza misja i wartości</div>
                 <div class="pl-17">
 
                     Centrum MediujeMY powstało aby towarzyszyć Wam w trudnych sytuacjach
@@ -28,7 +28,7 @@
                 <div>
                     <div class="mb-1 ml-4 text-md">
 
-                        <span class="italic">Agnieszka Danieluk - pomysłodawczyni i założycielka
+                        <span class="italic text-darker">Agnieszka Danieluk - pomysłodawczyni i założycielka
                             <span class="font-semibold">MediujeMy</span>
                         </span>
 
@@ -44,7 +44,7 @@
                 </div>
             </div>
         </div>
-        <div class="text-red-500 text-3xl p-4">
+        <div class="text-accent text-2xl font-semibold text-center p-4">
             Zapewniamy Państwu bezpłatne pierwsze
             spotkanie konsultacyjne, po którym możecie Państwo podjąć decyzję czy chcecie
             uczestniczyć w mediacji

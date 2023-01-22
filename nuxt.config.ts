@@ -23,6 +23,8 @@ export default defineNuxtConfig({
       colors: {
         'primary': '#114577',
         'secondary': '#2e7eb6',
+        'darker': '#040037',
+        'accent': '#82c9bb',
       }
     },
 
