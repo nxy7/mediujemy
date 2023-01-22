@@ -1,0 +1,24 @@
+<template>
+    <div class="p-8 m-8 shadow-md rounded-md flex flex-col space-y-4">
+        <div class="font-bold text-3xl">
+            <slot name="title"></slot>
+        </div>
+        <div class="grow">
+            <slot name="text"></slot>
+        </div>
+        <NuxtLink :href="moreInfoHref" class="
+        w-fit duration-200 p-4 border border-red-200 rounded-md 
+        hover:(bg-red-300)">Dowiedz się więcej</NuxtLink>
+    </div>
+</template>
+
+<script>
+export default {
+    props: {
+        moreInfoHref: {
+            type: String,
+            required: true
+        }
+    },
+}
+</script>
