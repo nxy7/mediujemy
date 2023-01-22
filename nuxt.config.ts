@@ -6,12 +6,7 @@ export default defineNuxtConfig({
   // },
   // appDir: './',
   // buildDir: './',
-  // rootDir: './',
-  // app: {
-  // baseURL: './',
-  // buildAssetsDir: './_nuxt/',
-  // },
-
+  // rootDir: '.',
   modules: [
     '@unocss/nuxt',
   ],

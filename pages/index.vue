@@ -38,7 +38,12 @@
             uczestniczyć w mediacji
         </div>
 
-        <div>slider opinii</div>
+        <div class="flex justify-center space-x-6">
+            <div>opinia</div>
+            <div>opinia</div>
+            <div>opinia</div>
+            <div>opinia</div>
+        </div>
 
 
         <div class="flex flex-col">
@@ -82,7 +87,7 @@
                         Po zatwierdzeniu ugody przez sąd ma ona taką samą moc prawną jak wyrok.
                     </template>
                 </MediationCard>
-                <MediationCard moreInfoHref="mediacje">
+                <MediationCard moreInfoHref="mediacje" buttonText="Więcej o mediacjach..">
                     <template v-slot:title>Mediacje pozasądowe</template>
                     <template v-slot:text>
                         W przypadku mediacji pozasądowych to strony same wybierają mediatora zgłaszając
