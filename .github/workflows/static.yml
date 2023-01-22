@@ -2,10 +2,10 @@
 # currently it's commented because nextjs doesn't support 'next export' yet
 name: Deploy static content to Pages
 
-on:
+# on:
   # Runs on pushes targeting the default branch
-  push:
-    branches: ["master"]
+  # push:
+    # branches: ["master"]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -44,7 +44,7 @@ jobs:
       - name: Build
         run: |
           pnpm i
-          NUXT_APP_BASE_URL=/mediujemy pnpm generate
+          pnpm generate
           # configure the build here
 
       - name: Deploy
