@@ -3,8 +3,8 @@
 
         <div class="grid grid-cols-2 place-items-center">
             <div>
-                <div class="text-4xl font-bold mb-4">Nasza misja i wartości</div>
-                <div class="pl-4">
+                <div class="text-8xl font-semibold mb-14">Nasza misja i wartości</div>
+                <div class="pl-17">
 
                     Centrum MediujeMY powstało aby towarzyszyć Wam w trudnych sytuacjach
                     sytuacji można znaleźć wyjście dobre dla obu stron. Zarówno spory sądowe jak i
@@ -25,23 +25,26 @@
             </div>
             <div class="flex flex-col items-center space-y-2">
                 <img src="/agnieszka1.jpg" class="relative -top-8 rounded-lg w-120 shadow-md" />
-                <div class="bg-slate-200 shadow-md rounded-md p-4">
-                    <div class="mb-6">
+                <div>
+                    <div class="mb-1 ml-4 text-md">
 
-                        Agnieszka Danieluk- pomysłodawczyni i założycielka MediujeMy 
+                        <span class="italic">Agnieszka Danieluk - pomysłodawczyni i założycielka
+                            <span class="font-semibold">MediujeMy</span>
+                        </span>
 
                     </div>
-                    <div>
+                    <div class="bg-slate-100 shadow-md rounded-md p-4">
 
-                        ‘’Wierzę w ludzi,  i uważam, że sami najlepiej wiedzą czego potrzebują. Jako mediator towarzyszę
+                        Wierzę w ludzi, i uważam, że sami najlepiej wiedzą czego potrzebują. Jako mediator
+                        towarzyszę
                         im
-                        w drodze do budowania porozumienia poprzez słuchanie i wspieranie w tej drodze’’.
+                        w drodze do budowania porozumienia poprzez słuchanie i wspieranie w tej drodze
 
                     </div>
                 </div>
             </div>
         </div>
-        <div class="text-red-500 text-3xl">
+        <div class="text-red-500 text-3xl p-4">
             Zapewniamy Państwu bezpłatne pierwsze
             spotkanie konsultacyjne, po którym możecie Państwo podjąć decyzję czy chcecie
             uczestniczyć w mediacji
