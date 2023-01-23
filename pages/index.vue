@@ -1,7 +1,7 @@
 <template>
     <div class="flex flex-col space-y-7">
 
-        <div class="grid grid-cols-2 place-items-center">
+        <div class="grid grid-cols-1 lg:grid-cols-2 place-items-center">
             <div>
                 <div class="text-8xl mb-14 text-darker">Nasza misja i wartości</div>
                 <div class="pl-17">
@@ -23,8 +23,9 @@
                 </div>
 
             </div>
-            <div class="flex flex-col items-center space-y-2">
-                <img src="/agnieszka1.jpg" class="relative -top-8 rounded-lg w-120 shadow-md" />
+            <div class="grid grid-cols-2 gap-2 place-items-center lg:flex lg:flex-col items-center">
+                <img src="/agnieszka1.jpg"
+                    class="lg:relative -top-8 rounded-lg w-60 lg:w-120 shadow-md place-self-end" />
                 <div>
                     <div class="mb-1 ml-4 text-md">
 
@@ -50,15 +51,19 @@
             uczestniczyć w mediacji
         </div>
 
-        <div class="flex justify-center space-x-10 items-center py-8">
+        <div class="flex items-center justify-center space-x-10 py-8">
+            <div class="flex">{{ "←" }}</div>
+            <div class="flex justify-center w-fit space-x-10 items-center overflow-x-scroll">
 
-            <div>{{ "←" }}</div>
-            <ReviewCard></ReviewCard>
-            <ReviewCard></ReviewCard>
-            <ReviewCard></ReviewCard>
-            <ReviewCard></ReviewCard>
-            <ReviewCard></ReviewCard>
-            <div>{{ "→" }}</div>
+
+                <ReviewCard></ReviewCard>
+                <ReviewCard></ReviewCard>
+                <ReviewCard></ReviewCard>
+                <ReviewCard></ReviewCard>
+                <ReviewCard></ReviewCard>
+
+            </div>
+            <div class="flex">{{ "→" }}</div>
         </div>
 
 
@@ -91,15 +96,16 @@
             </div>
             <div>
                 Zalety mediacji?
+                Najlepiej w formie listy z punktami (nie za długa)
             </div>
-            <div class="py-10 w-1/2 m-auto grid grid-cols-2 gap-4 place-items-center justify-center">
+            <div class="py-10 m-auto grid grid-cols-2 gap-4 place-items-center justify-center">
                 <MediationTypeIcon icon="i-mdi-home-account" subtitle="Mediacje Rodzinne"></MediationTypeIcon>
                 <MediationTypeIcon icon="i-mdi-fencing" subtitle="Rozwiązywanie Konfliktów"></MediationTypeIcon>
                 <MediationTypeIcon icon="i-mdi-account-voice" subtitle="Poprawa Komunikacji"></MediationTypeIcon>
                 <MediationTypeIcon icon="i-mdi-gavel" subtitle="Uregulowanie Kwestii Prawnych">
                 </MediationTypeIcon>
             </div>
-            <div class="grid grid-cols-2 mt-10">
+            <div class="grid grid-cols-1 xl:grid-cols-2 place-items-center mt-10">
                 <MediationCard moreInfoHref="mediacjesadowe">
                     <template v-slot:title>Mediacje sądowe</template>
                     <template v-slot:text>W przypadku mediacji sądowych, są one prowadzone na podstawie postanowienia
