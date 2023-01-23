@@ -3,8 +3,8 @@
 
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 place-items-center">
             <div>
-                <div class="text-8xl mb-14 text-center">Nasza misja i wartości</div>
-                <div class="pl-12">
+                <div class="text-5xl font-bold md:text-6xl mb-14 text-center">Nasza misja i wartości</div>
+                <div class="md:pl-12 text-center">
 
                     Centrum MediujeMY powstało aby towarzyszyć Wam w trudnych sytuacjach
                     sytuacji można znaleźć wyjście dobre dla obu stron. Zarówno spory sądowe jak i
@@ -23,8 +23,8 @@
                 </div>
 
             </div>
-            <div class="flex lg:flex-col gap-4 items-center lg:relative -top-8 ">
-                <img src="/agnieszka1.jpg" class="rounded-lg w-60 lg:w-120 shadow-md place-self-end" />
+            <div class="flex flex-col md:flex-row lg:flex-col gap-4 justify-center items-center lg:relative -top-8 ">
+                <img src="/agnieszka1.jpg" class="rounded-lg w-60 lg:w-120 shadow-md md:place-self-end" />
                 <div class="w-85 lg:w-fit">
                     <div class="mb-1 ml-4 text-md">
 
@@ -96,14 +96,14 @@
                 Zalety mediacji?
                 Najlepiej w formie listy z punktami (nie za długa)
             </div>
-            <div class="py-10 m-auto grid grid-cols-2 gap-4 place-items-center justify-center">
+            <div class="py-10 md:m-auto grid grid-cols-2 gap-4 place-items-center justify-center">
                 <MediationTypeIcon icon="i-mdi-home-account" subtitle="Mediacje Rodzinne"></MediationTypeIcon>
                 <MediationTypeIcon icon="i-mdi-fencing" subtitle="Rozwiązywanie Konfliktów"></MediationTypeIcon>
                 <MediationTypeIcon icon="i-mdi-account-voice" subtitle="Poprawa Komunikacji"></MediationTypeIcon>
                 <MediationTypeIcon icon="i-mdi-gavel" subtitle="Uregulowanie Kwestii Prawnych">
                 </MediationTypeIcon>
             </div>
-            <div class="grid grid-cols-1 lg:grid-cols-2 place-items-center mt-10">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 place-items-center mt-10">
                 <MediationCard moreInfoHref="mediacjesadowe">
                     <template v-slot:title>Mediacje sądowe</template>
                     <template v-slot:text>W przypadku mediacji sądowych, są one prowadzone na podstawie postanowienia

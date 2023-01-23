@@ -1,5 +1,6 @@
 <template>
-    <div class="w-90 h-40 flex flex-col justify-center items-center rounded-sm duration-200 hover:bg-slate-100">
+    <div
+        class="w-full md:w-90 h-40 flex flex-col justify-center items-center rounded-sm duration-200 hover:bg-slate-100">
         <div :class="icon
         + ``"></div>
         <div class="w-28 text-center">{{ subtitle }}</div>
