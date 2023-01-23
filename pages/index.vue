@@ -4,22 +4,28 @@
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 place-items-center">
             <div>
                 <div class="text-5xl font-bold md:text-6xl mb-14 text-center">Nasza misja i wartości</div>
-                <div class="md:pl-12 text-center">
+                <div class="md:pl-12 space-y-4">
 
-                    Centrum MediujeMY powstało aby towarzyszyć Wam w trudnych sytuacjach
-                    sytuacji można znaleźć wyjście dobre dla obu stron. Zarówno spory sądowe jak i
-                    pozasądowe można rozwiązywać w przyjaznej atmosferze współpracy, zaufania,
-                    poszanowania granic, uwzględniając emocje drugiej strony.
-                    Pracujemy opierając się na fundamentalnych zasadach mediacji: dobrowolności,
-                    bezstronności, poufności i szacunku.
-                    Nasz zespół to grupa prawników, socjologów i pedagogów. Jako osoby
-                    doświadczone zawodowo i życiowo pomożemy Państwu w trudnych kwestiach
-                    zarówno życiowych jak i zawodowych, wszędzie tam gdzie pojawia się konflikt,
-                    niezrozumienie, potrzeba głębszej współpracy czy poprawy komunikacji.
-                    Możemy Państwu pomóc, ponieważ jesteśmy tymi, którzy naprawdę POMAGAJĄ!
-                    Wierzymy w ideę mediacji i rozwiązywanie sporów w przyjaznej atmosferze zaufania
-                    i bezpieczeństwa.
+                    <p>
+                        Centrum MediujeMY powstało aby towarzyszyć Wam w trudnych sytuacjach
+                        sytuacji można znaleźć wyjście dobre dla obu stron. Zarówno spory sądowe jak i
+                        pozasądowe można rozwiązywać w przyjaznej atmosferze współpracy, zaufania,
+                        poszanowania granic, uwzględniając emocje drugiej strony.
+                    </p>
+                    <p>
+                        Pracujemy opierając się na fundamentalnych zasadach mediacji: dobrowolności,
+                        bezstronności, poufności i szacunku.
+                    </p>
+                    <p>
+                        Nasz zespół to grupa prawników, socjologów i pedagogów. Jako osoby
+                        doświadczone zawodowo i życiowo pomożemy Państwu w trudnych kwestiach
+                        zarówno życiowych jak i zawodowych, wszędzie tam gdzie pojawia się konflikt,
+                        niezrozumienie, potrzeba głębszej współpracy czy poprawy komunikacji.
+                        Możemy Państwu pomóc, ponieważ jesteśmy tymi, którzy naprawdę POMAGAJĄ!
+                        Wierzymy w ideę mediacji i rozwiązywanie sporów w przyjaznej atmosferze zaufania
+                        i bezpieczeństwa.
 
+                    </p>
                 </div>
 
             </div>
@@ -67,30 +73,45 @@
 
         <div class="flex flex-col">
             <div>Jakie sprawy do mediacji?</div>
-            <div>
-                Mediację możemy prowadzić we wszystkich sprawach, gdzie występuje potrzeba
-                uregulowania kwestii prawnych czy faktycznych. Będą to między innymi sprawy
-                cywilne, sprawy zakresu prawa rodzinnego w tym rozwód i separacja, o ustalenie
-                opieki nad dzieckiem, o alimenty, sprawy z zakresu prawa gospodarczego w tym o
-                zapłatę, spory pracownicze i wiele innych.
-                Do trudnych sytuacji, konfliktów czy sporów dochodzi we wszystkich relacjach,
-                społeczeństwach i kulturach. Bardzo często powstają one na skutek braku
-                komunikacji. Mówimy, ale nie słuchamy drugiej strony, a czasami wręcz nie chcemy
-                jej słuchać.
-                My jesteśmy tu po to, aby wysłuchać Państwa, usłyszeć Wasz głos i przeprowadzić
-                Was przez proces budowania porozumienia z druga stroną.
-                Mediacja zakłada, że strony przy pomocy mediatora, czyli neutralnej osoby trzeciej
-                poprzez techniki komunikacyjne i odkrycie faktycznych potrzeb stron wypracują
-                porozumienie co do zaistniałej sytuacji.
-                Niezależnie od tego, czy Państwa sprawa jest już na etapie postepowania sadowego,
-                czy jeszcze nie trafiła do sądu mediacje są sposobem rozwiązania Państwa sytuacji.
-                Oszczędzicie państwo w ten sposób czas, pieniądze i rozwiążecie sytuację w
-                komfortowych warunkach, oraz co jest warte podkreślenia weźmiecie spór we
-                własne ręce i zdecydujecie w jaki sposób chcecie go zakończyć.
-                Dzięki mediacjom strony mogą zakończyć spór już na pierwszym posiedzeniu
-                mediacyjnym
-                Nasi mediatorzy pracują na terenie województwa lubelskiego, podsiadamy oddziały
-                w Lublinie, Nałęczowie oraz Białej Podlaskiej.
+            <div class="space-y-2">
+                <p>
+                    Mediację możemy prowadzić we wszystkich sprawach, gdzie występuje potrzeba
+                    uregulowania kwestii prawnych czy faktycznych. Będą to między innymi sprawy
+                    cywilne, sprawy zakresu prawa rodzinnego w tym rozwód i separacja, o ustalenie
+                    opieki nad dzieckiem, o alimenty, sprawy z zakresu prawa gospodarczego w tym o
+                    zapłatę, spory pracownicze i wiele innych.
+
+                </p>
+                <p>
+                    Do trudnych sytuacji, konfliktów czy sporów dochodzi we wszystkich relacjach,
+                    społeczeństwach i kulturach. Bardzo często powstają one na skutek braku
+                    komunikacji. Mówimy, ale nie słuchamy drugiej strony, a czasami wręcz nie chcemy
+                    jej słuchać.
+
+                </p>
+                <p>
+                    My jesteśmy tu po to, aby wysłuchać Państwa, usłyszeć Wasz głos i przeprowadzić
+                    Was przez proces budowania porozumienia z druga stroną.
+                    Mediacja zakłada, że strony przy pomocy mediatora, czyli neutralnej osoby trzeciej
+                    poprzez techniki komunikacyjne i odkrycie faktycznych potrzeb stron wypracują
+                    porozumienie co do zaistniałej sytuacji.
+
+                </p>
+                <p>
+                    Niezależnie od tego, czy Państwa sprawa jest już na etapie postepowania sadowego,
+                    czy jeszcze nie trafiła do sądu mediacje są sposobem rozwiązania Państwa sytuacji.
+                    Oszczędzicie państwo w ten sposób czas, pieniądze i rozwiążecie sytuację w
+                    komfortowych warunkach, oraz co jest warte podkreślenia weźmiecie spór we
+                    własne ręce i zdecydujecie w jaki sposób chcecie go zakończyć.
+
+                </p>
+                <p>
+                    Dzięki mediacjom strony mogą zakończyć spór już na pierwszym posiedzeniu
+                    mediacyjnym
+                    Nasi mediatorzy pracują na terenie województwa lubelskiego, podsiadamy oddziały
+                    w Lublinie, Nałęczowie oraz Białej Podlaskiej.
+
+                </p>
             </div>
             <div>
                 Zalety mediacji?
