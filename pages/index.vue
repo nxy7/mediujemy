@@ -1,10 +1,10 @@
 <template>
     <div class="flex flex-col space-y-7">
 
-        <div class="grid grid-cols-1 lg:grid-cols-2 place-items-center">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 place-items-center">
             <div>
-                <div class="text-8xl mb-14 text-darker">Nasza misja i wartości</div>
-                <div class="pl-17">
+                <div class="text-8xl mb-14 text-center">Nasza misja i wartości</div>
+                <div class="pl-12">
 
                     Centrum MediujeMY powstało aby towarzyszyć Wam w trudnych sytuacjach
                     sytuacji można znaleźć wyjście dobre dla obu stron. Zarówno spory sądowe jak i
@@ -23,10 +23,9 @@
                 </div>
 
             </div>
-            <div class="grid grid-cols-2 gap-2 place-items-center lg:flex lg:flex-col items-center">
-                <img src="/agnieszka1.jpg"
-                    class="lg:relative -top-8 rounded-lg w-60 lg:w-120 shadow-md place-self-end" />
-                <div>
+            <div class="flex lg:flex-col gap-4 items-center lg:relative -top-8 ">
+                <img src="/agnieszka1.jpg" class="rounded-lg w-60 lg:w-120 shadow-md place-self-end" />
+                <div class="w-85 lg:w-fit">
                     <div class="mb-1 ml-4 text-md">
 
                         <span class="italic text-darker">Agnieszka Danieluk - pomysłodawczyni i założycielka
@@ -46,8 +45,7 @@
             </div>
         </div>
         <div class="text-accent text-2xl font-semibold text-center p-4">
-            Zapewniamy Państwu bezpłatne pierwsze
-            spotkanie konsultacyjne, po którym możecie Państwo podjąć decyzję czy chcecie
+            Zapewniamy Państwu bezpłatne spotkanie konsultacyjne, po którym możecie Państwo podjąć decyzję czy chcecie
             uczestniczyć w mediacji
         </div>
 
@@ -105,7 +103,7 @@
                 <MediationTypeIcon icon="i-mdi-gavel" subtitle="Uregulowanie Kwestii Prawnych">
                 </MediationTypeIcon>
             </div>
-            <div class="grid grid-cols-1 xl:grid-cols-2 place-items-center mt-10">
+            <div class="grid grid-cols-1 lg:grid-cols-2 place-items-center mt-10">
                 <MediationCard moreInfoHref="mediacjesadowe">
                     <template v-slot:title>Mediacje sądowe</template>
                     <template v-slot:text>W przypadku mediacji sądowych, są one prowadzone na podstawie postanowienia
