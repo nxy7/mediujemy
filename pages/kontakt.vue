@@ -1,3 +1,5 @@
 <template>
-    zsepol mordo
+    <div>
+        dane kontaktowe
+    </div>
 </template>
