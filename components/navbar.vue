@@ -4,7 +4,7 @@
         <!-- desktop -->
         <ul class="hidden md:flex w-full justify-center items-center space-x-12">
             <a href="/">
-                <img src="logo1.png" class="self-start h-12" />
+                <img src="/logo1.png" class="self-start h-12" />
             </a>
             <a href="zespol">Nasz zespół</a>
             <a href="mediacje">O mediacji</a>
