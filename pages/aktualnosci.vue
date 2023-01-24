@@ -1,3 +1,3 @@
 <template>
-    zsepol mordo
+    <div>aktualnosci (blog?)</div>
 </template>

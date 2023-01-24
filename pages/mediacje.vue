@@ -1,3 +1,7 @@
 <template>
-    zsepol mordo
+
+    <div>
+        wiecej o mediacjach
+    </div>
+
 </template>

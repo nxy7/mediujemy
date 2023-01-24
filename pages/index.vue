@@ -32,7 +32,7 @@
             <div class="flex flex-col md:flex-row lg:flex-col gap-4 justify-center items-center lg:relative -top-8 ">
                 <img src="/agnieszka1.jpg" class="rounded-lg w-60 lg:w-120 shadow-md md:place-self-end" />
                 <div class="w-85 lg:w-fit">
-                    <div class="mb-1 ml-4 text-md">
+                    <div class="mb-1 text-sm text-center">
 
                         <span class="italic text-darker">Agnieszka Danieluk - pomysłodawczyni i założycielka
                             <span class="font-semibold">MediujeMy</span>
@@ -50,12 +50,20 @@
                 </div>
             </div>
         </div>
-        <div class="text-accent text-2xl font-semibold text-center p-4">
-            Zapewniamy Państwu bezpłatne spotkanie konsultacyjne, po którym możecie Państwo podjąć decyzję czy chcecie
-            uczestniczyć w mediacji
+        <div class="p-4 flex flex-col items-center space-y-10">
+            <div class="text-accent text-2xl font-semibold text-center">
+                Zapewniamy Państwu bezpłatne spotkanie konsultacyjne, po którym możecie Państwo podjąć decyzję czy
+                chcecie
+                uczestniczyć w mediacji
+            </div>
+
+            <a href="kontakt" class="text-xl font-bold px-8 py-3 rounded-md bg-slate-100 duration-200 
+            hover:(bg-accent text-white)">
+                Umów spotkanie
+            </a>
         </div>
 
-        <div class="flex items-center justify-center space-x-10 py-8">
+        <!-- <div class="flex items-center justify-center space-x-10 py-8">
             <div class="flex">{{ "←" }}</div>
             <div class="flex justify-center w-fit space-x-10 items-center overflow-x-scroll">
 
@@ -68,12 +76,41 @@
 
             </div>
             <div class="flex">{{ "→" }}</div>
-        </div>
+        </div> -->
 
 
         <div class="flex flex-col">
-            <div>Jakie sprawy do mediacji?</div>
-            <div class="space-y-2">
+            <div class="space-y-4">
+                <div class="text-3xl font-semibold mb-12">Zalety mediacji</div>
+                <ul class="space-y-3 list-disc px-20">
+                    <li>
+                        Mediacja jest znacznie krótsza od tradycyjnego postępowania sądowego. Możecie Państwo podpisać
+                        ugodę już na pierwszym spotkaniu mediacyjnym.
+                    </li>
+                    <li>
+                        Mediacja jest co do zasady dużo tańsza od postępowania sądowego.
+                    </li>
+                    <li> Macie Państwo realny wpływ na wynik ugody i nie jesteście uzależnieni od woli organu sądowego.
+                    </li>
+                    <li>
+                        Mediacja przerywa bieg przedawnienia roszczenia co oznacza, że wszczęcie i prowadzenie mediacji
+                        nie stanowi ryzyka braku późniejszej możliwości dochodzenia żądania na drodze sądowej.
+                    </li>
+                    <li>
+                        Zatwierdzona przez sąd ugoda mediacyjna ma moc ugody sadowej.
+                    </li>
+                    <li>
+                        Mediacja pozwala Państwu na rozwiązanie sporu w spokojnej atmosferze, przyjaznych warunkach z
+                        poszanowaniem Waszych uczuć i emocji.
+                    </li>
+                    <li>
+                        Mediacja pozwala na utrzymanie lub wznowienie kontaktów, które będą lub powinny trwać w
+                        przyszłości,
+                        czy to w odniesieniu do sfery życia rodzinnego, gospodarczego, zawodowego lub innych.
+                    </li>
+                </ul>
+            </div>
+            <!-- <div class="space-y-2">
                 <p>
                     Mediację możemy prowadzić we wszystkich sprawach, gdzie występuje potrzeba
                     uregulowania kwestii prawnych czy faktycznych. Będą to między innymi sprawy
@@ -112,13 +149,10 @@
                     w Lublinie, Nałęczowie oraz Białej Podlaskiej.
 
                 </p>
-            </div>
-            <div>
-                Zalety mediacji?
-                Najlepiej w formie listy z punktami (nie za długa)
-            </div>
+            </div> -->
+
             <div class="py-10 md:m-auto grid grid-cols-2 gap-4 place-items-center justify-center">
-                <MediationTypeIcon icon="i-mdi-home-account" subtitle="Mediacje Rodzinne"></MediationTypeIcon>
+                <MediationTypeIcon icon="i-mdi-home-account" subtitle="Zadbanie o swoje interesy"></MediationTypeIcon>
                 <MediationTypeIcon icon="i-mdi-fencing" subtitle="Rozwiązywanie Konfliktów"></MediationTypeIcon>
                 <MediationTypeIcon icon="i-mdi-account-voice" subtitle="Poprawa Komunikacji"></MediationTypeIcon>
                 <MediationTypeIcon icon="i-mdi-gavel" subtitle="Uregulowanie Kwestii Prawnych">
