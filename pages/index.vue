@@ -39,14 +39,14 @@
                         </span>
 
                     </div>
-                    <div class="bg-slate-100 shadow-md rounded-md p-4">
 
+                    <Quote>
                         Wierzę w ludzi, i uważam, że sami najlepiej wiedzą czego potrzebują. Jako mediator
                         towarzyszę
                         im
                         w drodze do budowania porozumienia poprzez słuchanie i wspieranie w tej drodze
+                    </Quote>
 
-                    </div>
                 </div>
             </div>
         </div>
