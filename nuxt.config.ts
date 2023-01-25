@@ -1,9 +1,9 @@
 import transformerVariantGroup from '@unocss/transformer-variant-group'
 
 export default defineNuxtConfig({
-  typescript: {
-    typeCheck: true,
-  },
+  // typescript: {
+  //   typeCheck: true,
+  // },
   modules: [
     '@unocss/nuxt',
   ],
