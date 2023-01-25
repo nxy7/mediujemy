@@ -11,11 +11,11 @@
             <div class="text-xl mb-4">Menu</div>
             <ul class="flex flex-col items-center">
                 <li><a href="/">Strona Główna</a></li>
-                <li><a href="/zespol">Nasz Zespół</a></li>
-                <li><a href="/mediacje">O Mediacji</a></li>
-                <li><a href="/cennik">Cennik</a></li>
-                <li><a href="/aktualnosci">Aktualności</a></li>
-                <li><a href="/kontakt">Kontakt</a></li>
+                <li><a href="zespol">Nasz Zespół</a></li>
+                <li><a href="mediacje">O Mediacji</a></li>
+                <li><a href="cennik">Cennik</a></li>
+                <li><a href="aktualnosci">Aktualności</a></li>
+                <li><a href="kontakt">Kontakt</a></li>
             </ul>
         </div>
         <EmailForm></EmailForm>
