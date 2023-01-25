@@ -1,15 +1,8 @@
 import transformerVariantGroup from '@unocss/transformer-variant-group'
-// https://nuxt.com/docs/api/configuration/nuxt-config
-export default defineNuxtConfig({
-  // typescript: {
-  //   typeCheck: true,
-  // },
-  // appDir: './',
-  // buildDir: './',
-  // rootDir: '.',
 
-  nitro: {
-    baseURL: "http://nxy7.github.io/mediujemy"
+export default defineNuxtConfig({
+  typescript: {
+    typeCheck: true,
   },
   modules: [
     '@unocss/nuxt',
