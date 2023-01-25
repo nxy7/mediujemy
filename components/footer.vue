@@ -10,12 +10,24 @@
         <div class="flex flex-col justify-center items-center">
             <div class="text-xl mb-4">Menu</div>
             <ul class="flex flex-col items-center">
-                <li><a href="/">Strona Główna</a></li>
-                <li><a href="zespol">Nasz Zespół</a></li>
-                <li><a href="mediacje">O Mediacji</a></li>
-                <li><a href="cennik">Cennik</a></li>
-                <li><a href="aktualnosci">Aktualności</a></li>
-                <li><a href="kontakt">Kontakt</a></li>
+                <li>
+                    <NuxtLink href="/">Strona Główna</NuxtLink>
+                </li>
+                <li>
+                    <NuxtLink href="zespol">Nasz Zespół</NuxtLink>
+                </li>
+                <li>
+                    <NuxtLink href="mediacje">O Mediacji</NuxtLink>
+                </li>
+                <li>
+                    <NuxtLink href="cennik">Cennik</NuxtLink>
+                </li>
+                <li>
+                    <NuxtLink href="aktualnosci">Aktualności</NuxtLink>
+                </li>
+                <li>
+                    <NuxtLink href="kontakt">Kontakt</NuxtLink>
+                </li>
             </ul>
         </div>
         <EmailForm></EmailForm>
