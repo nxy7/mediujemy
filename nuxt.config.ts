@@ -7,6 +7,10 @@ export default defineNuxtConfig({
   // appDir: './',
   // buildDir: './',
   // rootDir: '.',
+
+  nitro: {
+    baseURL: "http://nxy7.github.io/mediujemy"
+  },
   modules: [
     '@unocss/nuxt',
   ],
