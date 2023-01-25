@@ -6,11 +6,11 @@
             <a href="/">
                 <img src="/logo1.png" class="self-start h-12" />
             </a>
-            <a href="zespol">Nasz zespół</a>
-            <a href="mediacje">O mediacji</a>
-            <a href="cennik">Cennik</a>
-            <a href="aktualnosci">Aktualności</a>
-            <a href="kontakt">Kontakt</a>
+            <a href="/zespol">Nasz zespół</a>
+            <a href="/mediacje">O mediacji</a>
+            <a href="/cennik">Cennik</a>
+            <a href="/aktualnosci">Aktualności</a>
+            <a href="/kontakt">Kontakt</a>
         </ul>
 
         <!-- mobile -->
