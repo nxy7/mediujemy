@@ -82,7 +82,7 @@
         <div class="flex flex-col">
             <div class="space-y-4">
                 <div class="text-3xl font-semibold mb-12">Zalety mediacji</div>
-                <ul class="space-y-3 list-disc px-20">
+                <ul class="space-y-3 list-disc px-4 md:px-20">
                     <li>
                         Mediacja jest znacznie krótsza od tradycyjnego postępowania sądowego. Możecie Państwo podpisać
                         ugodę już na pierwszym spotkaniu mediacyjnym.
