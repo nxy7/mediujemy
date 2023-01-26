@@ -1,6 +1,6 @@
 <template>
 
-    <div @click="state.open = !state.open"
+    <div @click="componentToggle"
         :class="`flex flex-col -scroll-mt-30 overflow-hidden p-6 rounded-md group hover:bg-slate-100` + (state.open ? `` : ``)"
         :id="id">
         <div class="text-center text-xl font-semibold">{{
@@ -29,6 +29,15 @@ let state = reactive({
     open: props.open,
     contentHeight: 0
 })
+const router = useRouter();
+
+function componentToggle() {
+    state.open = !state.open
+    if (state.open)
+        router.push({
+            hash: `#${props.id}`
+        })
+}
 
 const content = ref<any>(null)
 
