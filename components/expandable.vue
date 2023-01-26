@@ -1,8 +1,11 @@
 <template>
 
     <div @click="state.open = !state.open"
-        :class="`flex flex-col overflow-hidden p-6 rounded-md hover:bg-slate-100` + (state.open ? `` : ``)">
-        <div class="text-center text-xl font-semibold">{{ title }}</div>
+        :class="`flex flex-col -scroll-mt-30 overflow-hidden p-6 rounded-md group hover:bg-slate-100` + (state.open ? `` : ``)"
+        :id="id">
+        <div class="text-center text-xl font-semibold">{{
+            title
+        }}</div>
         <div :class="`overflow-hidden duration-300 ` + (state.open ? `` : `!max-h-0`)" ref="content"
             :style="`max-height: ${state.contentHeight || 1000}px`">
             <div class="p-2">
@@ -17,6 +20,7 @@
 import { ref, onMounted } from 'vue'
 let props = defineProps<{
     title: string,
+    id?: string,
     open?: boolean
 }>()
 
@@ -33,5 +37,11 @@ onMounted(() => {
     state.contentHeight = content.value?.scrollHeight || 0
     console.log(content.value?.scrollHeight)
 })
+watch(
+    () => props.open,
+    (open) => {
+        state.open = open
+    }
+)
 
 </script>

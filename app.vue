@@ -17,5 +17,10 @@ import '@unocss/reset/tailwind.css'
 <style>
 #__nuxt {
     font-family: 'Roboto', sans-serif;
+
+}
+
+html {
+    scroll-behavior: smooth;
 }
 </style>

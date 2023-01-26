@@ -1,4 +1,3 @@
-
 <template>
     <div class="sticky w-full top-0 flex justify-center items-center bg-white z-40 shadow-lg h-16">
         <!-- desktop -->
