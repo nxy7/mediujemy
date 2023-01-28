@@ -1,6 +1,6 @@
 <template>
 
-    <div
+    <a href="/aktualnosci/wpisjakis"
         :class="`flex flex-col group overflow-hidden rounded-md duration-200 shadow-md hover:(shadow-lg) md:(flex-row)`">
         <div class="overflow-hidden">
             <img class="h-50 w-60 duration-200 group-hover:scale-105 " :src="props.imageScr" alt="">
@@ -9,7 +9,7 @@
             <div>{{ props.subtitle }}</div>
             <div class="grow">{{ props.content }}</div>
         </div>
-    </div>
+    </a>
 
 </template>
 
