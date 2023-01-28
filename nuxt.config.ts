@@ -5,16 +5,10 @@ export default defineNuxtConfig({
   // typescript: {
   //   typeCheck: true,
   // },
-  app: {
-
-  },
-  router: {
-    options: {
-
+  runtimeConfig: {
+    public: {
+      baseUrl: process.env.NUXT_APP_BASE_URL || '/'
     }
-  },
-  nitro: {
-    baseURL: "/mediujemy/"
   },
   modules: [
     '@unocss/nuxt',

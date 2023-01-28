@@ -13,7 +13,10 @@
 
 <script setup lang="ts">
 import { member } from '~~/components/member/member';
-let base = process.env.NUXT_APP_BASE_URL || "/"
+// let base = process.env.NUXT_APP_BASE_URL || "/"
+let base = useRuntimeConfig().public.baseUrl
+console.log("base", base)
+
 
 const people: member[] = [{
     name: "Agnieszka",
