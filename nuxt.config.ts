@@ -1,8 +1,5 @@
 import transformerVariantGroup from '@unocss/transformer-variant-group'
 
-let aktualnosciRoutes = await queryContent('/').find()
-console.log(aktualnosciRoutes)
-console.log("config")
 export default defineNuxtConfig({
   // typescript: {
   //   typeCheck: true,
