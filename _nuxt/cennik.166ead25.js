@@ -1,0 +1,1 @@
+import{a as e,b as c,o,e as s}from"./entry.b3daa7e8.js";const t={},n={class:"flex flex-col"},_=s("div",null,"Ceny",-1),a=[_];function r(l,d){return o(),c("div",n,a)}const f=e(t,[["render",r]]);export{f as default};
