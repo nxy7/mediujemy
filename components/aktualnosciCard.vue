@@ -1,6 +1,6 @@
 <template>
 
-    <a :href="base + `/aktualnosci` + props._path"
+    <a :href="base + `aktualnosci` + props._path"
         :class="`flex flex-col group overflow-hidden rounded-md duration-200 shadow-md hover:(shadow-lg) md:(flex-row)`">
         <div class="overflow-hidden">
             <img class="w-full md:w-60 duration-200 group-hover:scale-105 " :src="props.imageSrc" alt="">
