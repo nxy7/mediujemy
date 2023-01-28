@@ -1,0 +1,1 @@
+import{a as e,b as o,o as t,e as s}from"./entry.2b6f2bcc.js";const c={},n={class:"flex"},_=s("div",{class:"grow"},"tresc spisu",-1),a=s("div",null,"kolumna z innymi wpisami",-1),i=[_,a];function r(d,l){return t(),o("div",n,i)}const m=e(c,[["render",r]]);export{m as default};
