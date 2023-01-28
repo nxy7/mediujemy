@@ -1,10 +1,10 @@
 <template>
-    <div class="flex flex-col space-y-7">
+    <div class="flex flex-col space-y-20">
 
-        <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 place-items-center">
+        <div class="flex flex-col lg:flex-row gap-4 items-center justify-around">
             <div>
-                <div class="text-5xl font-bold md:text-6xl mb-14 text-center">Nasza misja i wartości</div>
-                <div class="md:pl-12 space-y-4">
+                <div class="text-5xl font-bold md:text-6xl mb-8 text-center">Nasza misja i wartości</div>
+                <div class="md:pl-12 md:w-140 space-y-4 text-center text-lg text-slate-700">
 
                     <p>
                         Centrum MediujeMY powstało aby towarzyszyć Wam w trudnych sytuacjach
@@ -29,8 +29,8 @@
                 </div>
 
             </div>
-            <div class="flex flex-col md:flex-row lg:flex-col gap-4 justify-center items-center lg:relative -top-8 ">
-                <img src="/agnieszka1.jpg" class="rounded-lg w-60 lg:w-120 shadow-md md:place-self-end" />
+            <div class="flex flex-col min-w-1/3 gap-4 justify-center items-center lg:relative">
+                <img src="/agnieszka1.jpg" class="rounded-lg w-60 lg:w-100 shadow-md md:place-self-center" />
                 <div class="w-85 lg:w-fit">
                     <div class="mb-1 text-sm text-center">
 
@@ -40,18 +40,18 @@
 
                     </div>
 
-                    <Quote>
+                    <!-- <Quote className="hidden md:flex max-w-120">
                         Wierzę w ludzi, i uważam, że sami najlepiej wiedzą czego potrzebują. Jako mediator
                         towarzyszę
                         im
                         w drodze do budowania porozumienia poprzez słuchanie i wspieranie w tej drodze
-                    </Quote>
+                    </Quote> -->
 
                 </div>
             </div>
         </div>
-        <div class="p-4 flex flex-col items-center space-y-10">
-            <div class="text-accent text-2xl font-semibold text-center">
+        <div class="flex flex-col items-center space-y-4">
+            <div class="text-accent text-2xl font-semibold text-center md:max-w-220">
                 Zapewniamy Państwu bezpłatne spotkanie konsultacyjne, po którym możecie Państwo podjąć decyzję czy
                 chcecie
                 uczestniczyć w mediacji

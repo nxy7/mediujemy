@@ -7,8 +7,24 @@
 
 
         <div class="grid grid-cols-2">
-            <div>Agnieszka</div>
-            <div>Iwona</div>
+            <MemberCarousel :members="people"></MemberCarousel>
         </div>
     </div>
 </template>
+
+
+<script setup lang="ts">
+import { member } from '~~/components/member/member';
+
+const people: member[] = [{
+    name: "Agnieszka",
+    surname: "Danieluk",
+    photoSrc: "",
+    desc: "Coś o sobie"
+}, {
+    name: "Iwona",
+    surname: "Nieznam",
+    photoSrc: "",
+    desc: "Coś o sobie"
+}]
+</script>

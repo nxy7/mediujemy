@@ -1,3 +1,7 @@
 <template>
-    <div>cennik</div>
+    <div class="flex flex-col">
+
+        <div>Ceny</div>
+
+    </div>
 </template>

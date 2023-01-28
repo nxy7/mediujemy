@@ -33,6 +33,7 @@ const router = useRouter();
 
 function componentToggle() {
     state.open = !state.open
+
     if (state.open)
         router.push({
             hash: `#${props.id}`
