@@ -1,6 +1,7 @@
 export type member = {
- name: string,
- surname: string,
- photoSrc: string,
- desc: string
+    name: string,
+    surname: string,
+    photoSrc: string,
+    quote: string,
+    desc: string
 }

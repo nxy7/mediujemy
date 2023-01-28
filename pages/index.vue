@@ -159,7 +159,7 @@
                 </MediationTypeIcon>
             </div>
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 place-items-center mt-10">
-                <MediationCard moreInfoHref="mediacjesadowe">
+                <MediationCard moreInfoHref="mediacje#1">
                     <template v-slot:title>Mediacje sądowe</template>
                     <template v-slot:text>W przypadku mediacji sądowych, są one prowadzone na podstawie postanowienia
                         sądu wydanego z urzędu lub na wiosek każdej ze stron.
@@ -172,7 +172,7 @@
                         Po zatwierdzeniu ugody przez sąd ma ona taką samą moc prawną jak wyrok.
                     </template>
                 </MediationCard>
-                <MediationCard moreInfoHref="mediacje" buttonText="Więcej o mediacjach..">
+                <MediationCard moreInfoHref="mediacje#1" buttonText="Więcej o mediacjach..">
                     <template v-slot:title>Mediacje pozasądowe</template>
                     <template v-slot:text>
                         W przypadku mediacji pozasądowych to strony same wybierają mediatora zgłaszając
