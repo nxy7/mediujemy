@@ -13,11 +13,12 @@
 
 <script setup lang="ts">
 import { member } from '~~/components/member/member';
+let base = process.env.NUXT_APP_BASE_URL || "/"
 
 const people: member[] = [{
     name: "Agnieszka",
     surname: "Danieluk",
-    photoSrc: "/agnieszka2.jpg",
+    photoSrc: base + "agnieszka2.jpg",
     quote: ` 
                         "Wierzę w ludzi, i uważam, że sami najlepiej wiedzą czego potrzebują. Jako mediator
                         towarzyszę
@@ -28,7 +29,7 @@ const people: member[] = [{
 }, {
     name: "Iwona",
     surname: "Nieznam",
-    photoSrc: "/iwona01.jpg",
+    photoSrc: base + "iwona01.jpg",
     quote: "",
     desc: "Coś o sobie"
 }]
