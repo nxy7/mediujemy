@@ -2,7 +2,7 @@
     <div w-full
         class="bg-slate-900 mt-20 min-h-80 text-white lg:px-20 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 place-items-center">
         <div class="flex flex-col items-center">
-            <img src="/logo2.png" alt="logo" class="h-40">
+            <img src="/logo4.png" alt="logo" class="h-50">
             <!-- <div class="text-center text-sm">
                 Centrum Mediacji Komunikacji i szkoleń Mediujemy jest niezależną firma świadczącą usługi mediacyjne dla
                 osób prywatnych oraz podmiotów gospodarczych na terenie województwa lubelskiego.

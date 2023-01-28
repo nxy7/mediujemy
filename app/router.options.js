@@ -3,12 +3,12 @@ export default {
         // console.log(from)
 
         if (to.path != "/mediacje") {
-            console.log("not pathing to mediacje")
+            // console.log("not pathing to mediacje")
             return savedPosition
         }
 
         if (from.name != "mediacje") {
-            console.log('pathing from mediacje')
+            // console.log('pathing from mediacje')
             return {
                 el: to.hash,
                 top: 63

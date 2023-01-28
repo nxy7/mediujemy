@@ -12,6 +12,7 @@ export default defineNuxtConfig({
   },
   modules: [
     '@unocss/nuxt',
+    '@nuxt/content'
   ],
   unocss: {
     uno: true, // enabled `@unocss/preset-uno`

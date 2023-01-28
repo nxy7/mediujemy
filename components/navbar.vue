@@ -22,7 +22,7 @@
 
             </button>
             <Teleport to="body">
-                <div v-if="isMobileVisible"
+                <div v-if="isMobileVisible" @click="isMobileVisible = false"
                     class="fixed top-0 left-0 z-30 pt-20 flex flex-col h-screen w-screen bg-slate-100">
                     <NuxtLink v-for="link in links" :href="link.href"
                         class="w-full text-center text-3xl font-semibold duration-75 hover:bg-slate-200 py-8">

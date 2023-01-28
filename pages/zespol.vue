@@ -1,12 +1,15 @@
 <template>
-    <div class="mt-8 flex flex-col items-center">
-        <Quote className="max-w-1/2 mb-10">
-            Mediacje są naszą pasja i wierzymy, że każdy spór można rozwiązać na drodze
-            porozumienia, współpracy w poszanowaniu praw drugiej strony
-        </Quote>
+    <div class="mt-8 flex">
+        <div class="flex flex-col grow items-center">
+            <Quote className="w-full lg:w-3/4 mb-10">
+                Mediacje są naszą pasja i wierzymy, że każdy spór można rozwiązać na drodze
+                porozumienia, współpracy w poszanowaniu praw drugiej strony
+            </Quote>
 
 
-        <MemberCarousel :members="people"></MemberCarousel>
+            <MemberCarousel :members="people"></MemberCarousel>
+        </div>
+        <div class="hidden">nawigacja</div>
     </div>
 </template>
 
@@ -33,7 +36,7 @@ const people: member[] = [{
     name: "Iwona",
     surname: "Nieznam",
     photoSrc: base + "iwona01.jpg",
-    quote: "",
+    quote: `"cytat iwony"`,
     desc: "Coś o sobie"
 }]
 </script>
