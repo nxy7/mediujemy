@@ -1,0 +1,6 @@
+import{_ as t}from"./quote.vue.25b840af.js";import{_ as r}from"./memberCarousel.vue.0074cc3f.js";import{W as c,R as m,a5 as p,a6 as d,a7 as o,ac as a,ad as l,ap as u}from"./app.config.edc666ea.js";import"./memberCard.vue.d5aa42f8.js";const _={class:"mt-8 flex"},z={class:"flex flex-col grow items-center"},w=o("div",{class:"hidden"},"nawigacja",-1),x=c({__name:"zespol",setup(f){let e=m().public.baseUrl;console.log("base",e);const s=[{name:"Agnieszka",surname:"Danieluk",photoSrc:e+"agnieszka2.jpg",quote:` 
+                        "Wierzę w ludzi, i uważam, że sami najlepiej wiedzą czego potrzebują. Jako mediator
+                        towarzyszę
+                        im
+                        w drodze do budowania porozumienia poprzez słuchanie i wspieranie w tej drodze"
+    `,desc:""},{name:"Iwona",surname:"Nieznam",photoSrc:e+"iwona01.jpg",quote:'"cytat iwony"',desc:"Coś o sobie"}];return(g,b)=>{const i=t,n=r;return p(),d("div",_,[o("div",z,[a(i,{className:"w-full lg:w-3/4 mb-10"},{default:l(()=>[u(" Mediacje są naszą pasja i wierzymy, że każdy spór można rozwiązać na drodze porozumienia, współpracy w poszanowaniu praw drugiej strony ")]),_:1}),a(n,{members:s})]),w])}}});export{x as default};

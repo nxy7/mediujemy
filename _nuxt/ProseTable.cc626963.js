@@ -1,1 +1,0 @@
-import{a as r}from"./entry.b7d73d84.js";import{a6 as a,ao as o,ar as t}from"./app.config.87378446.js";const s={};function n(e,c){return a(),o("table",null,[t(e.$slots,"default")])}const _=r(s,[["render",n]]);export{_ as default};

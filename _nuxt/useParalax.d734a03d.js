@@ -1,1 +1,0 @@
-import{o as r,c as s}from"./app.config.87378446.js";let i=(t,n)=>{let e=0,o=a=>{let l=window.scrollY;l>2e3||(e=l/100,t.value.style.transform=`translate3d(0, ${e*(n||1)}rem, 0)`)};r(()=>{window.addEventListener("scroll",o)}),s(()=>{window.removeEventListener("scroll",o)})};export{i as useParalax};
