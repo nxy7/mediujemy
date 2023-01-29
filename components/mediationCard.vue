@@ -7,8 +7,8 @@
             <slot name="text"></slot>
         </div>
         <NuxtLink :href="moreInfoHref" class="
-        w-fit duration-100 p-4 border border-red-200 rounded-md font-semibold
-        hover:(bg-red-300 text-white)">{{ buttonText || "Dowiedz się więcej" }}</NuxtLink>
+        w-fit duration-100 p-4 border border-secondary rounded-md font-semibold
+        hover:(bg-secondary text-white)">{{ buttonText || "Dowiedz się więcej" }}</NuxtLink>
     </div>
 </template>
 

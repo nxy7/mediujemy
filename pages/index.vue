@@ -5,7 +5,6 @@
             <div>
                 <div class="text-5xl font-bold md:text-6xl mb-8 text-center">Nasza misja i wartości</div>
                 <div class="md:pl-12 md:w-140 space-y-4 text-center text-lg text-slate-700">
-
                     <p>
                         Centrum MediujeMY powstało aby towarzyszyć Wam w trudnych sytuacjach
                         sytuacji można znaleźć wyjście dobre dla obu stron. Zarówno spory sądowe jak i
@@ -51,14 +50,14 @@
             </div>
         </div>
         <div class="flex flex-col items-center space-y-4">
-            <div class="text-accent text-2xl font-semibold text-center md:max-w-220">
+            <div class="text-secondary text-2xl font-semibold text-center md:max-w-220">
                 Zapewniamy Państwu bezpłatne spotkanie konsultacyjne, po którym możecie Państwo podjąć decyzję czy
                 chcecie
                 uczestniczyć w mediacji
             </div>
 
             <a href="kontakt" class="text-xl font-bold px-8 py-3 rounded-md bg-slate-100 duration-200 
-            hover:(bg-accent text-white)">
+            hover:(bg-secondary text-white)">
                 Umów spotkanie
             </a>
         </div>
@@ -172,7 +171,7 @@
                         Po zatwierdzeniu ugody przez sąd ma ona taką samą moc prawną jak wyrok.
                     </template>
                 </MediationCard>
-                <MediationCard moreInfoHref="mediacje#1" buttonText="Więcej o mediacjach..">
+                <MediationCard moreInfoHref="mediacje#1">
                     <template v-slot:title>Mediacje pozasądowe</template>
                     <template v-slot:text>
                         W przypadku mediacji pozasądowych to strony same wybierają mediatora zgłaszając

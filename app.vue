@@ -5,6 +5,7 @@
 </template>
 
 <script>
+import 'uno.css'
 import '@unocss/reset/normalize.css'
 import '@unocss/reset/sanitize/sanitize.css'
 import '@unocss/reset/sanitize/assets.css'
