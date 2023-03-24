@@ -1,6 +1,6 @@
 <template>
     <div class="flex flex-col space-y-2">
-        <div class="mb-2">
+        <div class="mb-2 text-5xl font-semibold text-center">
             Formularz kontaktowy
         </div>
         <div class="space-x-4 flex">

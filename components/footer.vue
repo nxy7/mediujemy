@@ -1,6 +1,6 @@
 <template>
     <div w-full
-        class="bg-slate-900 mt-20 min-h-80 text-white lg:px-20 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 place-items-center">
+        class="bg-slate-100 mt-20 min-h-80 shadow-md text-white lg:px-30 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 place-items-center">
         <div class="flex flex-col items-center">
             <img src="/logo4.png" alt="logo" class="h-50">
             <!-- <div class="text-center text-sm">
@@ -9,7 +9,8 @@
             </div> -->
         </div>
         <div class="hidden lg:flex flex-col justify-center items-center">
-            <div class="text-xl mb-4">Menu</div>
+            2
+            <!-- <div class="text-xl mb-4">Menu</div>
             <ul class="flex flex-col items-center">
                 <li>
                     <NuxtLink href="/">Strona Główna</NuxtLink>
@@ -29,8 +30,10 @@
                 <li>
                     <NuxtLink href="kontakt">Kontakt</NuxtLink>
                 </li>
-            </ul>
+            </ul> -->
         </div>
-        <EmailForm></EmailForm>
+        <div>
+            3
+        </div>
     </div>
 </template>
