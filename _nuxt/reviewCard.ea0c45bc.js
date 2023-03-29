@@ -1,0 +1,1 @@
+import{a as e}from"./entry.c9522685.js";import{a5 as t,a6 as c}from"./app.config.edc666ea.js";const n={},r={class:"h-40 min-w-40 bg-accent rounded-lg text-center flex items-center justify-center text-white font-bold"};function o(a,s){return t(),c("div",r," opinia ")}const _=e(n,[["render",o]]);export{_ as default};
