@@ -1,6 +1,6 @@
 <template>
     <div
-        class="sticky w-full top-0 flex justify-center items-center z-40 shadow-lg !bg-white min-h-17 backdrop-blur-sm">
+        class="sticky w-full top-0 flex justify-center items-center z-40 shadow-lg text-black !bg-white min-h-20 backdrop-blur-sm">
         <!-- desktop -->
         <div class="hidden lg:flex w-full px-4 space-x-12">
             <NuxtLink href="/" class="self-start">
@@ -8,7 +8,7 @@
             </NuxtLink>
             <div class="flex grow justify-end items-center space-x-6 pr-8">
                 <NuxtLink v-for="link in links" :href="link.href"
-                    class="px-4 py-3 duration-200 font-semibold text-secondary hover:text-primary">{{
+                    class="px-4 py-3 duration-200 text-md font-semibold hover:text-black">{{
                         link.text
                     }}
                 </NuxtLink>
