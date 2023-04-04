@@ -7,7 +7,7 @@
             <div class="px-8 md:px-0 text-white mt-56 text-5xl font-bold drop-shadow-lg text-center">Porozumienie bez barier
             </div>
         </div>
-        <div class="flex flex-col space-y-20 px-60">
+        <div class="flex flex-col space-y-20 px-7 py-7 md:px-60">
 
             <div class="flex flex-col lg:flex-row items-center justify-center">
                 <div>
@@ -36,8 +36,8 @@
                     </div>
 
                 </div>
-                <div class="flex flex-col min-w-1/3 gap-4 justify-center items-center lg:relative">
-                    <img src="/ag1.png" class="rounded-lg w-60 lg:w-100 md:place-self-center" />
+                <div class="hidden lg:(flex flex-col min-w-1/3 gap-4 justify-center items-center relative)">
+                    <img src="/ag1.png" class="rounded-lg lg:w-100 md:place-self-center" />
                     <div class="w-85 lg:w-fit">
                         <div class="mb-1 text-sm text-center">
 
@@ -64,8 +64,9 @@
                     uczestniczyć w mediacji
                 </div>
 
-                <a href="kontakt" class="text-xl font-bold px-8 py-3 rounded-md bg-slate-100 duration-200 
-                                                                                hover:(bg-secondary text-white)">
+                <a href="kontakt"
+                    class="text-xl font-bold px-8 py-3 rounded-md bg-slate-100 duration-200 
+                                                                                                        hover:(bg-secondary text-white)">
                     Umów spotkanie
                 </a>
             </div>

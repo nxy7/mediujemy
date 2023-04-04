@@ -1,6 +1,6 @@
 <template>
     <div
-        class="sticky w-full top-0 flex justify-center items-center z-40 shadow-lg text-black !bg-white min-h-20 backdrop-blur-sm">
+        :class="`sticky w-full top-0 flex justify-center items-center z-40 md:shadow-lg text-black min-h-20 backdrop-blur-sm ${!isMobileVisible ? ' !bg-white' : ''}`">
         <!-- desktop -->
         <div class="hidden lg:flex w-full px-4 space-x-12">
             <NuxtLink href="/" class="self-start">
@@ -18,7 +18,7 @@
         <!-- mobile -->
         <div class="w-full px-4 flex justify-end lg:hidden">
 
-            <button class="i-mdi-menu" @click="isMobileVisible = !isMobileVisible">
+            <button :class="isMobileVisible ? 'i-mdi-close' : 'i-mdi-menu'" @click="isMobileVisible = !isMobileVisible">
 
             </button>
             <Teleport to="body">
@@ -40,6 +40,7 @@
 const isMobileVisible = ref(false)
 
 const links = [
+    { href: "/", text: "Strona Główna" },
     { href: "zespol", text: "Nasz zespół" },
     { href: "mediacje", text: "O mediacji" },
     { href: 'cennik', text: "Cennik" },
