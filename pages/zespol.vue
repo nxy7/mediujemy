@@ -1,10 +1,10 @@
 <template>
     <div class="mt-8 flex">
         <div class="flex flex-col grow items-center">
-            <Quote className="w-full lg:w-3/4 mb-10">
+            <!-- <Quote className="w-full lg:w-fit mb-10">
                 Mediacje są naszą pasja i wierzymy, że każdy spór można rozwiązać na drodze
                 porozumienia, współpracy w poszanowaniu praw drugiej strony
-            </Quote>
+            </Quote> -->
 
 
             <MemberCarousel :members="people"></MemberCarousel>
@@ -26,17 +26,17 @@ const people: member[] = [{
     surname: "Danieluk",
     photoSrc: base + "agnieszka2.jpg",
     quote: ` 
-                        "Wierzę w ludzi, i uważam, że sami najlepiej wiedzą czego potrzebują. Jako mediator
+                        Wierzę w ludzi, i uważam, że sami najlepiej wiedzą czego potrzebują. Jako mediator
                         towarzyszę
                         im
-                        w drodze do budowania porozumienia poprzez słuchanie i wspieranie w tej drodze"
+                        w drodze do budowania porozumienia poprzez słuchanie i wspieranie w tej drodze
     `,
     desc: ""
 }, {
     name: "Iwona",
     surname: "Nieznam",
     photoSrc: base + "iwona01.jpg",
-    quote: `"cytat iwony"`,
+    quote: `cytat iwony`,
     desc: "Coś o sobie"
 }]
 </script>

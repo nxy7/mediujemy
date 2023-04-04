@@ -1,14 +1,14 @@
 <template>
     <div
-        :class="`sticky w-full top-0 flex justify-center items-center z-40 md:shadow-lg text-black min-h-20 backdrop-blur-sm ${!isMobileVisible ? ' !bg-white' : ''}`">
+        :class="`w-full top-0 flex justify-center items-center z-40 min-h-14 md:min-h-26 ${!isMobileVisible ? ' !bg-white ' : ''}`">
         <!-- desktop -->
-        <div class="hidden lg:flex w-full px-4 space-x-12">
+        <div class="hidden lg:flex w-full px-16 space-x-12">
             <NuxtLink href="/" class="self-start">
-                <img src="/logo1.png" class="self-start h-12" />
+                <img src="/logo5.png" class="self-start h-16" />
             </NuxtLink>
-            <div class="flex grow justify-end items-center space-x-6 pr-8">
-                <NuxtLink v-for="link in links" :href="link.href"
-                    class="px-4 py-3 duration-200 text-md font-semibold hover:text-black">{{
+            <div class="flex grow justify-end items-center space-x-6">
+                <NuxtLink v-for="link in links" :href="link.href" class="px-4 py-3 duration-200 hover:(text-black)">
+                    {{
                         link.text
                     }}
                 </NuxtLink>
@@ -54,6 +54,6 @@ const bgVariable = ref('#FFFFF1')
 #__nuxt,
 .mainContainer,
 body {
-    background-color: v-bind(bgVariable)
+    background-color: v-bind(bgVariable);
 }
 </style>

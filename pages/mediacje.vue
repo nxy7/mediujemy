@@ -1,6 +1,6 @@
 <template>
-    <div class="flex space-x-6 mt-10 px-30">
-        <div class="sticky top-20 flex flex-col space-y-2 self-start">
+    <div class="flex flex-col md:(flex-row px-30) space-x-6 mt-10 ">
+        <div class="hidden md:(sticky top-20 flex) flex-col space-y-2 self-start">
             <NuxtLink v-for="item, ind in expandables" class="p-2 rounded-md hover:bg-slate-100 w-55 text-center"
                 :href="`#${ind}`">{{ item.title }}</NuxtLink>
         </div>

@@ -1,7 +1,8 @@
 <template>
     <Header></Header>
-    <div class="text-darker min-h-screen">
+    <div class="text-dark ">
         <slot></slot>
     </div>
     <Footer></Footer>
 </template>
+

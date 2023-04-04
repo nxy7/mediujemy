@@ -19,7 +19,7 @@
             <span>Treść Wiadomości</span>
             <input type="text" class="grow">
         </div>
-        <div>
+        <div class="bg-slate-100 p-4 rounded-md w-fit m-auto duration-200 hover:bg-slate-200">
             <input type="submit" value="Wyślij wiadomość">
         </div>
     </div>

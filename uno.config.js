@@ -28,10 +28,12 @@ export default defineConfig({
     include: [/.*\/anu-vue\.js(.*)?$/, './**/*.vue', './**/*.md'],
     theme: {
         colors: {
-            'primary': '#114577',
-            'secondary': '#2e7eb6',
-            'darker': '#040037',
+            'primary': '#124559',
+            'secondary': '#98D9C2',
+            'claret': '#89043D',
+            'dark': '#01161E',
             'accent': '#82c9bb',
+            'light': '#FAFAFF'
         }
     },
 })
