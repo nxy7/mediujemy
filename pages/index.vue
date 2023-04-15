@@ -39,7 +39,7 @@
                         </p> -->
                     </div>
                     <a href="kontakt"
-                        class="text-xl font-bold px-8 py-3 rounded-md bg-light duration-200 hover:(bg-claret text-white)">
+                        class="text-xl font-bold px-8 py-3 rounded-md bg-claret text-white duration-200 hover:(scale-101) active:(scale-98)">
                         Umów bezpłatne spotkanie
                     </a>
 
