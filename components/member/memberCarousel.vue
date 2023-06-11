@@ -1,6 +1,6 @@
 <template>
     <div class="flex gap-9 flex-wrap justify-center">
-        <MemberCard v-for="person, id in props.members" :member="person" :photo-side="id % 2 == 1"></MemberCard>
+        <MemberCard v-for="person, id in props.members" :key="id" :member="person" :photo-side="id % 2 == 1"></MemberCard>
     </div>
 </template>
 

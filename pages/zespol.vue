@@ -1,12 +1,13 @@
 <template>
     <div class="mt-8 flex">
+        
         <div class="flex flex-col grow items-center">
             <!-- <Quote className="w-full lg:w-fit mb-10">
                 Mediacje są naszą pasja i wierzymy, że każdy spór można rozwiązać na drodze
                 porozumienia, współpracy w poszanowaniu praw drugiej strony
             </Quote> -->
 
-
+            <span class="text-extrabold text-3xl mb-2">Nasz Zespół</span>
             <MemberCarousel :members="people"></MemberCarousel>
         </div>
         <div class="hidden">nawigacja</div>

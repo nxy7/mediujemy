@@ -7,7 +7,7 @@
                 <img src="/logo5.png" class="self-start h-16" />
             </NuxtLink>
             <div class="flex grow justify-end items-center space-x-6">
-                <NuxtLink v-for="link in links" :href="link.href" class="px-4 py-3 duration-200 hover:(text-black)">
+                <NuxtLink v-for="link, ind in links" :key="ind" :href="link.href" class="px-4 py-3 duration-200 hover:(text-primary)">
                     {{
                         link.text
                     }}
@@ -24,7 +24,7 @@
             <Teleport to="body">
                 <div v-if="isMobileVisible" @click="isMobileVisible = false"
                     class="fixed top-0 left-0 z-30 pt-20 flex flex-col h-screen w-screen bg-slate-100">
-                    <NuxtLink v-for="link in links" :href="link.href"
+                    <NuxtLink v-for="link, ind in links" :key="ind" :href="link.href"
                         class="w-full text-center text-3xl font-semibold duration-75 hover:bg-slate-200 py-8">
                         {{ link.text }}
                     </NuxtLink>

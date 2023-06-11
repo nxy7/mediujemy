@@ -17,8 +17,8 @@
                     </div>
                     <div class="md:w-140 space-y-4 text-center">
                         <p>
-                            Centrum MediujeMY powstało aby towarzyszyć Wam w trudnych sytuacjach
-                            sytuacji można znaleźć wyjście dobre dla obu stron. Zarówno spory sądowe jak i
+                            Centrum MediujeMY powstało aby towarzyszyć Wam w trudnych sytuacjach. Nawet w nich 
+                            można znaleźć wyjście dobre dla obu stron. Zarówno spory sądowe jak i
                             pozasądowe można rozwiązywać w przyjaznej atmosferze współpracy, zaufania,
                             poszanowania granic, uwzględniając emocje drugiej strony.
                         </p>
@@ -39,7 +39,7 @@
                         </p> -->
                     </div>
                     <a href="kontakt"
-                        class="text-xl font-bold px-8 py-3 rounded-md bg-claret text-white duration-200 hover:(scale-101) active:(scale-98)">
+                        class="text-xl font-bold px-8 py-3 rounded-md bg-secondary text-white duration-200 hover:(scale-101) active:(scale-98)">
                         Umów bezpłatne spotkanie
                     </a>
 
