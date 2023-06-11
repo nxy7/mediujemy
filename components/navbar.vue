@@ -7,7 +7,7 @@
                 <img src="/logo5.png" class="self-start h-16" />
             </NuxtLink>
             <div class="flex grow justify-end items-center space-x-6">
-                <NuxtLink v-for="link, ind in links" :key="ind" :href="link.href" class="px-4 py-3 duration-200 hover:(text-primary)">
+                <NuxtLink v-for="link, ind in links" :key="ind" :href="link.href" class="px-4 py-3 text-lg text-slate-400 duration-200 hover:(text-primary)">
                     {{
                         link.text
                     }}
