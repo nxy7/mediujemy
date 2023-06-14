@@ -7,7 +7,7 @@
                 porozumienia, współpracy w poszanowaniu praw drugiej strony
             </Quote> -->
 
-            <span class="text-extrabold text-3xl mb-2">Nasz Zespół</span>
+            <span class="text-extrabold text-5xl mb-8">Nasz Zespół</span>
             <MemberCarousel :members="people"></MemberCarousel>
         </div>
         <div class="hidden">nawigacja</div>
@@ -35,7 +35,7 @@ const people: member[] = [{
     desc: ""
 }, {
     name: "Iwona",
-    surname: "Nieznam",
+    surname: "",
     photoSrc: base + "iwona01.jpg",
     quote: `cytat iwony`,
     desc: "Coś o sobie"

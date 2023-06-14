@@ -6,7 +6,7 @@ export default defineNuxtConfig({
   // },
   vite: {
     plugins: [
-      UnoCSS()
+      UnoCSS(),
     ]
   },
   runtimeConfig: {
@@ -19,7 +19,13 @@ export default defineNuxtConfig({
     // '@unocss/nuxt',
     '@nuxt/content'
   ],
-  css: ['@anu-vue/preset-theme-default/dist/style.css'],
+  css: ['@anu-vue/preset-theme-default/dist/style.css',
+    // 'vuetify/lib/styles/main.sass'
+  ],
+  // build: {
+  //   transpile: ['vuetify'],
+  // },
+
   // unocss: {
   //   autoImport: true,
   //   uno: true,

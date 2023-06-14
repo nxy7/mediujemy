@@ -1,24 +1,26 @@
 <template>
-    <form class="flex flex-col space-y-2">
+<v-text-field
+      label="Main input"
+      hide-details="auto"
+    ></v-text-field>     
+    <form action="mailto:kontakt@mediujemy.pl" class="flex flex-col space-y-2">
         <div class="mb-2 text-5xl font-semibold text-center">
             Formularz kontaktowy
         </div>
-        <div>
-            <label for="name">Imie</label>
-            <input type="text" class="grow" name="name">
-        </div>
-        <div class="space-x-4 flex">
-            <label for="surname">Nazwisko</label>
-            <input type="text" class="grow" name="surname">
-        </div>
-        <div class="space-x-4 flex">
-            <label for="email">Email</label>
-            <input type="text" class="grow" name="email">
-        </div>
-        <div class="space-x-4 flex">
-            <label for="message">Treść Wiadomości</label>
-            <input type="text" class="grow" name="message">
-        </div>
-        <input type="submit" value="Wyślij wiadomość" class="cursor-pointer px-4 py-2 rounded-sm !bg-slate-100">
+
+        <CustomInput name="name" display-name="Imię"></CustomInput>
+        <CustomInput name="surname" display-name="Nazwisko"></CustomInput>
+        <CustomInput name="subject" display-name="Temat wiadomości"></CustomInput>
+        <!-- <CustomInput type="email" name="email" display-name="Email"></CustomInput> -->
+
+        <input type="hidden" name="subject" value="test">
+
+        <CustomTextfield name="body" display-name="Treść Wiadomości"></CustomTextfield>
+
+        <input type="submit" value="Wyślij wiadomość" class="w-90 mt-7! mx-auto cursor-pointer px-4 py-2 rounded-sm !bg-secondary font-bold text-white">
     </form>
 </template>
+
+<script setup lang="ts">
+
+</script>
