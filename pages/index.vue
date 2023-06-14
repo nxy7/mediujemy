@@ -1,13 +1,5 @@
 <template>
     <div>
-        <!-- <div class="relative flex flex-col h-[80vh] shadow-inner items-center justify-center overflow-hidden">
-            <div ref="imageRef" class="absolute w-full h-[150%] -top-10 -z-1" bg="[url(/bg2.jpeg)] center cover"></div>
-            <div style="font-family: 'Open Sans', sans-serif;"
-                class="px-8 md:px-0 text-white mt-50 text-7xl font-medium drop-shadow-lg text-center">
-                Porozumienie bez
-                barier
-            </div>
-        </div> -->
         <div class="flex flex-col">
 
             <div class="flex flex-col lg:flex-row items-center justify-center hero">
@@ -23,20 +15,6 @@
                             poszanowania granic, uwzględniając emocje drugiej strony.
                         </p>
 
-                        <!-- <p>
-                            Pracujemy opierając się na fundamentalnych zasadach mediacji: dobrowolności,
-                            bezstronności, poufności i szacunku.
-                        </p> -->
-                        <!-- <p>
-                            Nasz zespół to grupa prawników, socjologów i pedagogów. Jako osoby
-                            doświadczone zawodowo i życiowo pomożemy Państwu w trudnych kwestiach
-                            zarówno życiowych jak i zawodowych, wszędzie tam gdzie pojawia się konflikt,
-                            niezrozumienie, potrzeba głębszej współpracy czy poprawy komunikacji.
-                            Możemy Państwu pomóc, ponieważ jesteśmy tymi, którzy naprawdę POMAGAJĄ!
-                            Wierzymy w ideę mediacji i rozwiązywanie sporów w przyjaznej atmosferze zaufania
-                            i bezpieczeństwa.
-
-                        </p> -->
                     </div>
                     <a href="kontakt"
                         class="text-xl font-bold px-8 py-3 rounded-md bg-secondary text-white duration-200 hover:(scale-101) active:(scale-98)">
@@ -48,37 +26,10 @@
                     <img src="/aga1.png" class="rounded-lg lg:h-200 md:place-self-center" />
                 </div>
             </div>
-            <!-- <div class="flex flex-col items-center space-y-4">
-                <div class="text-primary text-2xl font-semibold text-center md:max-w-220">
-                    Zapewniamy Państwu bezpłatne spotkanie konsultacyjne, po którym możecie podjąć decyzję czy
-                    chcecie uczestniczyć w mediacji
-                </div>
-
-                <a href="kontakt"
-                    class="text-xl font-bold px-8 py-3 rounded-md bg-light duration-200 hover:(bg-claret text-white)">
-                    Umów spotkanie
-                </a>
-            </div> -->
-
-            <!-- <div class="flex items-center justify-center space-x-10 py-8">
-            <div class="flex">{{ "←" }}</div>
-            <div class="flex justify-center w-fit space-x-10 items-center overflow-x-scroll">
-
-
-                <ReviewCard></ReviewCard>
-                <ReviewCard></ReviewCard>
-                <ReviewCard></ReviewCard>
-                <ReviewCard></ReviewCard>
-                <ReviewCard></ReviewCard>
-
-            </div>
-            <div class="flex">{{ "→" }}</div>
-        </div> -->
-
 
             <div :class="'flex flex-col relative ' + sectionPaddings">
                 <div class="space-y-4">
-                    <div class="text-3xl font-semibold mb-12">Zalety mediacji</div>
+                    <div class="text-3xl font-semibold mb-12 text-primary">Zalety mediacji</div>
                     <ul class="space-y-3 list-disc px-4 md:px-20">
                         <li>
                             Mediacja jest znacznie krótsza od tradycyjnego postępowania sądowego. Możecie Państwo podpisać
@@ -107,46 +58,6 @@
                         </li>
                     </ul>
                 </div>
-                <!-- <div class="space-y-2">
-                <p>
-                    Mediację możemy prowadzić we wszystkich sprawach, gdzie występuje potrzeba
-                    uregulowania kwestii prawnych czy faktycznych. Będą to między innymi sprawy
-                    cywilne, sprawy zakresu prawa rodzinnego w tym rozwód i separacja, o ustalenie
-                    opieki nad dzieckiem, o alimenty, sprawy z zakresu prawa gospodarczego w tym o
-                    zapłatę, spory pracownicze i wiele innych.
-
-                </p>
-                <p>
-                    Do trudnych sytuacji, konfliktów czy sporów dochodzi we wszystkich relacjach,
-                    społeczeństwach i kulturach. Bardzo często powstają one na skutek braku
-                    komunikacji. Mówimy, ale nie słuchamy drugiej strony, a czasami wręcz nie chcemy
-                    jej słuchać.
-
-                </p>
-                <p>
-                    My jesteśmy tu po to, aby wysłuchać Państwa, usłyszeć Wasz głos i przeprowadzić
-                    Was przez proces budowania porozumienia z druga stroną.
-                    Mediacja zakłada, że strony przy pomocy mediatora, czyli neutralnej osoby trzeciej
-                    poprzez techniki komunikacyjne i odkrycie faktycznych potrzeb stron wypracują
-                    porozumienie co do zaistniałej sytuacji.
-
-                </p>
-                <p>
-                    Niezależnie od tego, czy Państwa sprawa jest już na etapie postepowania sadowego,
-                    czy jeszcze nie trafiła do sądu mediacje są sposobem rozwiązania Państwa sytuacji.
-                    Oszczędzicie państwo w ten sposób czas, pieniądze i rozwiążecie sytuację w
-                    komfortowych warunkach, oraz co jest warte podkreślenia weźmiecie spór we
-                    własne ręce i zdecydujecie w jaki sposób chcecie go zakończyć.
-
-                </p>
-                <p>
-                    Dzięki mediacjom strony mogą zakończyć spór już na pierwszym posiedzeniu
-                    mediacyjnym
-                    Nasi mediatorzy pracują na terenie województwa lubelskiego, podsiadamy oddziały
-                    w Lublinie, Nałęczowie oraz Białej Podlaskiej.
-
-                </p>
-            </div> -->
                 <div class="py-10 md:m-auto grid grid-cols-2 gap-4 place-items-center justify-center">
                     <MediationTypeIcon icon="i-mdi-home-account" subtitle="Zadbanie o swoje interesy"></MediationTypeIcon>
                     <MediationTypeIcon icon="i-mdi-fencing" subtitle="Rozwiązywanie Konfliktów"></MediationTypeIcon>
@@ -154,13 +65,10 @@
                     <MediationTypeIcon icon="i-mdi-gavel" subtitle="Uregulowanie Kwestii Prawnych">
                     </MediationTypeIcon>
                 </div>
-
-
             </div>
 
 
-
-            <div :class="'grid grid-cols-1 lg:grid-cols-2 gap-8 place-items-center mt-10 bg-light ' + sectionPaddings">
+            <div :class="'grid grid-cols-1 lg:grid-cols-2 gap-8 place-items-center mt-10 bg-primary ' + sectionPaddings">
                 <MediationCard moreInfoHref="mediacje#1">
                     <template v-slot:title>Mediacje sądowe</template>
                     <template v-slot:text>W przypadku mediacji sądowych, są one prowadzone na podstawie postanowienia
