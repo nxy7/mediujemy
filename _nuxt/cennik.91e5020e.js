@@ -1,1 +1,0 @@
-import{a as e}from"./entry.956e82c3.js";import{a5 as t,a6 as s,a7 as c}from"./app.config.edc666ea.js";const n={},o={class:"flex flex-col justify-center items-center"},a=c("div",null,"Cennik nie został jeszcze ustalony",-1),r=[a];function i(_,l){return t(),s("div",o,r)}const m=e(n,[["render",i]]);export{m as default};
