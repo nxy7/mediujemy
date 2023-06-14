@@ -12,7 +12,7 @@
 
             <div class="flex flex-col lg:flex-row items-center justify-center hero">
                 <div class="flex flex-col items-center space-y-8">
-                    <div class="text-5xl text-center uppercase font-semibold">
+                    <div class="text-5xl text-center uppercase font-semibold text-primary">
                         Nasza Misja
                     </div>
                     <div class="md:w-140 space-y-4 text-center">

@@ -4,7 +4,7 @@
       hide-details="auto"
     ></v-text-field>     
     <form action="mailto:kontakt@mediujemy.pl" class="flex flex-col space-y-2">
-        <div class="mb-2 text-5xl font-semibold text-center">
+        <div class="mb-2 text-5xl font-semibold text-center text-primary">
             Formularz kontaktowy
         </div>
 

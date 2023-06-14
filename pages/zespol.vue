@@ -7,7 +7,7 @@
                 porozumienia, współpracy w poszanowaniu praw drugiej strony
             </Quote> -->
 
-            <span class="text-extrabold text-5xl mb-8">Nasz Zespół</span>
+            <span class="font-extrabold text-primary text-5xl mb-8">Nasz Zespół</span>
             <MemberCarousel :members="people"></MemberCarousel>
         </div>
         <div class="hidden">nawigacja</div>
