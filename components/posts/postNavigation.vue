@@ -1,6 +1,6 @@
 <template>
     <div class="flex flex-col space-y-2">
-        <NuxtLink v-for="post in content" :href="post._path.substring(1)">{{ post.title }}</NuxtLink>
+        <NuxtLink v-for="post in content" :href="`/aktualnosci/${post._path.substring(1)}`">{{ post.title }}</NuxtLink>
     </div>
 </template>
 
