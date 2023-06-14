@@ -1,0 +1,1 @@
+import{a as o}from"./entry.db762872.js";import{a5 as r,a6 as a,aa as t}from"./app.config.edc666ea.js";const s={};function n(e,c){return r(),a("ol",null,[t(e.$slots,"default")])}const _=o(s,[["render",n]]);export{_ as default};
