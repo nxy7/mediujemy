@@ -41,11 +41,11 @@ const isMobileVisible = ref(false)
 
 const links = [
     { href: "/", text: "Strona Główna" },
-    { href: "zespol", text: "Nasz zespół" },
-    { href: "mediacje", text: "O mediacji" },
-    { href: 'cennik', text: "Cennik" },
-    { href: "aktualnosci", text: "Aktualności" },
-    { href: "kontakt", text: "Kontakt" },
+    { href: "/zespol", text: "Nasz zespół" },
+    { href: "/mediacje", text: "O mediacji" },
+    { href: '/cennik', text: "Cennik" },
+    { href: "/aktualnosci", text: "Aktualności" },
+    { href: "/kontakt", text: "Kontakt" },
 ]
 const bgVariable = ref('#FFFFF1')
 </script>

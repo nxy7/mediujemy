@@ -1,5 +1,5 @@
 <template>
-    <div class="flex space-x-4">
+    <div class="flex flex-col md:(flex-row px-10) gap-6">
         <div class="flex flex-col grow rounded-md overflow-hidden">
             <div class="h-80 w-full mb-7 overflow-hidden relative">
                 <img ref="imgRef" :src="content.imageSrc" alt="" class="absolute bottom-0 h-100 w-full object-cover">
@@ -10,7 +10,7 @@
                 <ContentRenderer :value="content" />
             </div>
         </div>
-        <div>
+        <div class="w-full md:w-60">
             <PostsPostNavigation></PostsPostNavigation>
         </div>
     </div>

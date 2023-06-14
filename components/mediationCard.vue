@@ -1,5 +1,5 @@
 <template>
-    <div class="p-8 shadow-md bg-white rounded-md flex flex-col space-y-4 max-w-160 h-full">
+    <div class="p-8 shadow-md bg-white rounded-md flex flex-col space-y-4 w-full h-full">
         <div class="font-bold text-3xl">
             <slot name="title"></slot>
         </div>

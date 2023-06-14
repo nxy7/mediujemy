@@ -2,7 +2,7 @@
     <div>
         <div class="flex flex-col">
 
-            <div class="flex flex-col lg:flex-row items-center justify-center hero">
+            <div class="flex flex-col py-7 lg:(flex-row py-0) items-center justify-center hero">
                 <div class="flex flex-col items-center space-y-8">
                     <div class="text-5xl text-center uppercase font-semibold text-primary">
                         Nasza Misja
@@ -30,7 +30,7 @@
             <div :class="'flex flex-col relative ' + sectionPaddings">
                 <div class="space-y-4">
                     <div class="text-3xl font-semibold mb-12 text-primary">Zalety mediacji</div>
-                    <ul class="space-y-3 list-disc px-4 md:px-20">
+                    <ul class="space-y-3 list-disc px-3 md:px-20">
                         <li>
                             Mediacja jest znacznie krótsza od tradycyjnego postępowania sądowego. Możecie Państwo podpisać
                             ugodę już na pierwszym spotkaniu mediacyjnym.
@@ -113,7 +113,7 @@
 <script setup lang="ts">
 import { useParalax } from '~~/components/useParalax';
 
-const sectionPaddings = "px-7 py-15 md:px-60"
+const sectionPaddings = "px-2 py-15 md:px-20 lg:px-50"
 
 const imageRef = ref(null)
 useParalax(imageRef)

@@ -1,6 +1,6 @@
 <template>
     <div w-full
-        class="bg-primary mt-20 min-h-80 shadow-md text-white lg:px-30 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 place-items-center">
+        class="bg-primary mt-10 min-h-80 shadow-md text-white lg:px-30 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 place-items-center">
         <div class="flex flex-col items-center">
             <img src="/logo4.png" alt="logo" class="h-50 brightness-0 invert">
             <!-- <div class="text-center text-sm">
