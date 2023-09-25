@@ -1,6 +1,7 @@
 <template>
     <div w-full
-        class="bg-primary mt-10 min-h-80 shadow-md text-white lg:px-30 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 place-items-center">
+        class="bg-primary mt-10 min-h-80 shadow-md text-white lg:px-30 flex justify-around items-center">
+        <div class="hidden lg:flex flex-col justify-center items-center">
         <div class="flex flex-col items-center">
             <img src="/logo4.png" alt="logo" class="h-50 brightness-0 invert">
             <!-- <div class="text-center text-sm">
@@ -8,8 +9,7 @@
                 osób prywatnych oraz podmiotów gospodarczych na terenie województwa lubelskiego.
             </div> -->
         </div>
-        <div class="hidden lg:flex flex-col justify-center items-center">
-            2
+            
             <!-- <div class="text-xl mb-4">Menu</div>
             <ul class="flex flex-col items-center">
                 <li>
@@ -32,8 +32,10 @@
                 </li>
             </ul> -->
         </div>
-        <div>
-            3
+        <div class="flex flex-col items-center">
+                <div class="mb-2 font-semibold">Kontakt</div>
+                <div>Email: kontakt@mediujemy.pl</div>
+            
         </div>
     </div>
 </template>
