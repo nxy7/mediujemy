@@ -9,23 +9,19 @@ export default defineNuxtConfig({
       UnoCSS(),
     ]
   },
+
   runtimeConfig: {
     public: {
       baseUrl: process.env.NUXT_APP_BASE_URL || '/'
     }
   },
-  modules: [
-    '@anu-vue/nuxt',
-    // '@unocss/nuxt',
-    '@nuxt/content'
-  ],
-  css: ['@anu-vue/preset-theme-default/dist/style.css',
-    // 'vuetify/lib/styles/main.sass'
-  ],
+
+  modules: ['@anu-vue/nuxt', // '@unocss/nuxt',
+  '@nuxt/content', "@nuxt/image"],
+
   // build: {
   //   transpile: ['vuetify'],
   // },
-
   // unocss: {
   //   autoImport: true,
   //   uno: true,
@@ -37,7 +33,6 @@ export default defineNuxtConfig({
   //   transformers: [
   //     transformerVariantGroup(),
   //   ],
-
   //   theme: {
   //     colors: {
   //       'primary': '#114577',
@@ -46,12 +41,13 @@ export default defineNuxtConfig({
   //       'accent': '#82c9bb',
   //     }
   //   },
-
-
-
   //   // core options
   //   shortcuts: [],
   //   rules: [],
   // },
-})
+  css: ['@anu-vue/preset-theme-default/dist/style.css',
+    // 'vuetify/lib/styles/main.sass'
+  ],
 
+  compatibilityDate: '2024-08-03',
+})
