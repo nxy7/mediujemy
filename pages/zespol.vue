@@ -47,11 +47,10 @@ Moje motto to:`,
 `,
 `W związku z tym, że na co dzień prowadzę negocjacje, rozwiązuję spory i szukam porozumienia w trudnych sytuacjach zarówno wewnątrz organizacji jak i z klientami zewnętrznymi jest mi łatwiej pomagać stronom szukającym porozumienia.
 W swojej pracy wykorzystuję elementy TSR (Terapia Skoncentrowana na Rozwiązaniach).
-`      ,`
-
-Moją ogromną pasją jest rozwój osobisty, wierzę, że każdy z nas ma potencjał, który czasami drzemie w nas ukryty i potrzebuje małego wsparcia aby ujrzeć światło dzienne.
+`,
+`Moją ogromną pasją jest rozwój osobisty, wierzę, że każdy z nas ma potencjał, który czasami drzemie w nas ukryty i potrzebuje małego wsparcia aby ujrzeć światło dzienne.
 Stąd prowadzone przeze mnie coachingi i warsztaty uwzględniają  tematykę związaną z wypaleniem zawodowym, radzeniem sobie ze stresem, wzmocnieniem poczucia własnej wartości,
- poprawa komunikacji i rozwiazywaniem konfliktów.`
+ poprawa komunikacji i rozwiazywaniem konfliktów.`,
 ``,``,``,
 
 `Z wykształcenia jestem prawnikiem (UMCS) oraz mediatorem wpisanym na listę stałych mediatorów przy Sądzie Okręgowym w Lublinie.

@@ -25,7 +25,6 @@ import '@unocss/reset/tailwind.css'
     flex-direction: column;
     justify-content: space-between;
     color: rgba(0, 0, 0, 0.79);
-
 }
 
 html {
