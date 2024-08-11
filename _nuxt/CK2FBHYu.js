@@ -1,1 +1,0 @@
-import{v as r,x as s}from"./MCYuCIQz.js";let i=(t,n)=>{let e=0,l=a=>{let o=window.scrollY;o>2e3||(e=o/100,t.value.style.transform=`translate3d(0, ${e*(n||1)}rem, 0)`)};r(()=>{window.addEventListener("scroll",l)}),s(()=>{window.removeEventListener("scroll",l)})};export{i as u};

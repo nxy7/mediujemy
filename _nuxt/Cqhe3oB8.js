@@ -1,0 +1,1 @@
+import{_ as t}from"./DZH6qAYw.js";import{_ as e,o as c,c as n,b as _}from"./B6KgxsjR.js";const r={},s={"px-50":""};function a(m,p){const o=t;return c(),n("div",s,[_(o)])}const d=e(r,[["render",a]]);export{d as default};
